@@ -51,43 +51,30 @@ Mutations in the viral protease changes the binding propensity of a given anti-r
 Along the way, this challenge introduces **state-of-the-art hybrid classical-quantum embedded chemistry modelling** allowing the splitting of the work-load between classical approximations and more accurate quantum calculations.
 
 Finally, you need to tweak the setup of the quantum chemistry algorithm (without having to understand the nuts and bolts of quantum computing) to achieve the best performance for ideal quantum computing conditions.
-<div align=center class="alert alert-block alert-info">
-    <h1>IBM Quantum Challenge Africa:</h1>
-        <h1>Quantum Chemistry for HIV</h1>
-</div>
+### Introduction
+#### Step 1 : Defining the Molecular Geometry
+#### Step 2 : Calculating the Qubit Hamiltonian
+#### Step 2a: Constructing the Fermionic Hamiltonion
+#### Step 2b: Getting Ready to Convert to a Qubit Hamiltonian
+#### Step 3 : Setting up the Variational Quantum Eigensolver (VQE)
+#### Step 3a: The V in VQE (i.e. the Variational form, a Trial state)
+#### Step 3b: The Q in VQE: the Quantum environment
+#### Step 3c: Initializing VQE
+#### Step 4 : Solving for the Ground-state
+### The HIV Challenge
+#### 1. Refining Step 1: Varying the Molecule
+#### 2. Refining Step 2: Reducing the quantum workload
+#### 3. Refining Step 4: Energy Surface
+#### 4. Refining Step 3a
+### Exercises
+#### Exercise 3a: Molecular Definition of Macromolecule with Blocking Approach
+#### Exercise 3b: Classical-Quantum Treatment Conceptual Questions (Multiple-Choice)
+#### Exercise 3c: Energy Landscape, To bind or not to bind?
+#### Exercise 3d: The effect of more repetitions
+#### Exercise 3e: Open-ended: Find the best hardware_inspired_trial to minimize the Energy Error for the Macromolecule
 
-<img src="HIV-1_capsid_wikipedia.png"/>
 
-<div align=center class="alert alert-block alert-info">
-    <h1>Table of Contents</h1>
-</div>
 
-| Walk-through |
-|:-|
-|[Preface](#preface)|
-|[Introduction](#intro)|
-|[Step 1 : Defining the Molecular Geometry](#step_1)|
-|[Step 2 : Calculating the Qubit Hamiltonian](#step_2)|
-|[Step 2a: Constructing the Fermionic Hamiltonion](#step_3)|
-|[Step 2b: Getting Ready to Convert to a Qubit Hamiltonian](#step_2b)|
-|[Step 3 : Setting up the Variational Quantum Eigensolver (VQE)](#step_3)|
-|[Step 3a: The V in VQE (i.e. the Variational form, a Trial state)](#step_3a)|
-|[Step 3b: The Q in VQE: the Quantum environment](#step_3b)|
-|[Step 3c: Initializing VQE](#step_3c)|
-|[Step 4 : Solving for the Ground-state](#step_4)|
-||
-|[The HIV Challenge](#challenge)|
-|[1. Refining Step 1: Varying the Molecule](#refine_step_1)|
-|[2. Refining Step 2: Reducing the quantum workload](#refine_step_2)|
-|[3. Refining Step 4: Energy Surface](#refine_step_4)|
-|[4. Refining Step 3a](#refine_step_3a)|
-|Exercises|
-|[Exercise 3a: Molecular Definition of Macromolecule with Blocking Approach](#exercise_3a)|
-|[Exercise 3b: Classical-Quantum Treatment Conceptual Questions (Multiple-Choice)](#exercise_3b)|
-|[Exercise 3c: Energy Landscape, To bind or not to bind?](#exercise_3c)|
-|[Exercise 3d: The effect of more repetitions](#exercise_3d)|
-|[Exercise 3e: Open-ended: Find the best hardware_inspired_trial to minimize the Energy Error for the Macromolecule](#exercise_3e)|
-|[Quantum Chemistry Resources](#qresource)|
-
-<h2><a id='preface'>Preface</a></h2>
+### Thanks, IBM, Amira Abbas african_mentor for well-prepared notebooks. Looking forward to the next Quantum Challenge! :)
+![image (1)](https://user-images.githubusercontent.com/70172995/134553020-54c86ab7-5c14-4fee-93ed-a18a978dbb56.png)
 
